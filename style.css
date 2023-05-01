@@ -1,0 +1,39 @@
+body{
+    background-color: aqua;
+}
+
+h1{
+    font-family: cursive;
+    color: yellow;
+    font-size: 50px;
+}
+
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    color:greenyellow;
+}
+
+label{
+    font-family: 'Times New Roman', Times, serif;
+    color: yellow;
+}
+
+.login_div1{
+    background-color: blue;
+    border-radius: 25px; 
+    margin-top: 70px;
+}
+
+.login_div2{
+    background-color: blue;
+    border-radius: 25px; 
+    margin-top: 70px;
+}
+
+#login_button{
+    margin-top: 70px;
+    font-size: 30px;
+    background-color: yellow;
+    color: blue;
+    font-family: fantasy;
+}

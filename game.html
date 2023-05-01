@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>The Math Quiz!</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" href="game.css">
+</head>
+<body>
+
+    <div id="hi">
+	<h4 id="player1_name">Player 1: </h4>
+	<span id="player1_score">0</span>
+	<br>
+	<h4 id="player2_name">Player 2: </h4>
+	<span id="player2_score">0</span>
+</div>
+
+<div class="container">
+	<center>
+
+        <h1>THE MATH QUIZ!</h1>
+
+        
+		<h2 id="question_turn">Question Turn: </h3>
+		<h2 id="answer_turn">Answer Turn: </h3>
+
+		<br>
+		<br>
+
+        <div id="output">
+        </div> 
+
+        <div class="Number_div">
+            <br>
+		<h4>Number 1</h4>
+		<input type="number" class="form-control" id="number_1" placeholder="Enter the first number here">
+
+		<h4>Number 2</h4>
+		<input type="number" class="form-control" id="number_2" placeholder="Enter the second number here">
+        <hr>
+    </div>
+
+		<br>
+
+		<button id="send_button" class="btn btn-info" onclick="send()">SEND</button>
+	</center>
+</div>
+<script src="game.js"></script>
+</body>
+</html>

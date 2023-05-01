@@ -1,0 +1,49 @@
+body{
+    background-color: aqua;
+}
+
+h1{
+    font-family: cursive;
+    color: yellow;
+    font-size: 40px;
+}
+
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    color:blue;
+}
+
+label{
+    font-family: 'Times New Roman', Times, serif;
+    color: yellow;
+}
+
+.Number_div{
+    background-color: blue;
+    border-radius: 25px; 
+    margin-top: 30px;
+}
+
+
+#output{
+    background-color: blue;
+    border-radius: 25px; 
+}
+
+#send_button{
+    font-size: 20px;
+    background-color: yellow;
+    color: blue;
+    font-family: fantasy;
+}
+
+#check_button{
+    font-size: 10px;
+    background-color: yellow;
+    color: blue;
+    font-family: fantasy;
+}
+
+#hi{
+    margin-left: 20px;
+}
